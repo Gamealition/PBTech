@@ -73,6 +73,17 @@ li.breadcrumbs span:first-child > a
     z-index:  44;
 }
 
+/* Fix search fieldset in forum view */
+fieldset
+{
+    margin:  0;
+    padding: 0;
+}
+
+#forum-search .button                 { font-size:     0; }
+#forum-search .button.search-icon     { border-radius: 0; }
+#forum-search .button.search-adv-icon { border-radius: 0 3px 3px 0; }
+
 /* Custom BBCode
 --------------------------------------------- */
 
