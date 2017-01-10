@@ -84,6 +84,18 @@ fieldset
 #forum-search .button.search-icon     { border-radius: 0; }
 #forum-search .button.search-adv-icon { border-radius: 0 3px 3px 0; }
 
+/* Remove indentation from topic lists */
+ul.topiclist
+{
+    padding: 0;
+}
+
+ul.topiclist dl,
+ul.topiclist dd
+{
+    margin: 0;
+}
+
 /* Custom BBCode
 --------------------------------------------- */
 
