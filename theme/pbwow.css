@@ -1134,11 +1134,7 @@ fieldset.polls dl.voted {
 }
 
 .vote-submitted {
-	position: absolute;
-	bottom: 10px;
-	left: 50%;
-	margin-left: -100px;
-	width: 200px;
+	margin-top: 10px;
 }
 
 /* Sort & Display options
