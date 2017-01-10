@@ -220,7 +220,7 @@ hr {
 .forum-blocks dl.icon,
 .misc-block,
 .stat-block p {
-	background: #E5E4E3;
+	background-color: #E5E4E3;
 	border: none;
 	border-radius: 3px;
 	box-shadow: none;
@@ -246,13 +246,7 @@ hr {
 
 /* Unread */
 .forum-blocks dl.icon.forum_unread {
-  background: #e5e4e3; /* Old browsers */
-background: -moz-linear-gradient(top, rgba(208,219,223,1) 0%, rgba(229,228,227,1) 75%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(208,219,223,1)), color-stop(75%,rgba(229,228,227,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(208,219,223,1) 0%,rgba(229,228,227,1) 75%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(208,219,223,1) 0%,rgba(229,228,227,1) 75%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(208,219,223,1) 0%,rgba(229,228,227,1) 75%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(208,219,223,1) 0%,rgba(229,228,227,1) 75%); /* W3C */
+  background-color: rgb(208,219,223);
 }
 
 .forum-blocks dd.forum-stats.unread > span {
@@ -261,8 +255,9 @@ background: linear-gradient(to bottom, rgba(208,219,223,1) 0%,rgba(229,228,227,1
 }
 
 /* Hover states */
+.forum-blocks dl.icon.forum_unread:hover,
 .forum-blocks dl:hover {
-	background: #FFFFFF;
+	background-color: #FFFFFF;
 	border: none;
 	box-shadow: none;
 }
