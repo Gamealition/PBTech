@@ -150,6 +150,9 @@ ul.topiclist dd
     padding:   0;
 }
 
+/* Fix post body width */
+.postbody { width: 84%; }
+
 /* Custom BBCode
 --------------------------------------------- */
 
