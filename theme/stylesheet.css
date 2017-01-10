@@ -445,7 +445,9 @@ table.table1 tbody .big-column td {
 }
 
 .no-avatar .avatar-container {
-	background: url("./images/no_avatar.gif") 50% 10px no-repeat;
+	background: url("./images/no_avatar.png") 50% 10px no-repeat;
+	opacity: 0.5;
+	height: 110px;
 }
 
 .postprofile .avatar {
