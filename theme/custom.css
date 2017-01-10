@@ -1,0 +1,203 @@
+/* Custom CSS for PBTech
+
+You can customize whatever you want.
+Some defaults are included, like on PBWoW.com
+
+Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Awesome/icons/
+
+*/
+
+#logo
+{
+	background: url("./images/logo.png") no-repeat;
+    background-size: contain;
+	width: 308px;
+	height: 92px;
+	margin: 10px 0;
+    margin-top: 16px;
+}
+
+sup
+{
+    vertical-align: super;
+    font-size: smaller;
+}
+
+sub
+{
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+.postbody .content li
+{
+    padding: 6px 0;
+}
+
+.postbody .content video
+{
+    max-width: 100%;
+}
+
+/* Update fixes
+--------------------------------------------- */
+
+.postprofile .avatar img
+{
+    padding:    0;
+    margin-top: 0;
+    background: none;
+}
+
+/* Custom BBCode
+--------------------------------------------- */
+
+.postbody .collapsible:hover
+{
+    height: initial;
+}
+
+.postbody .collapsible
+{
+    height: 48px;
+    background: rgba(67, 67, 67, 0.12);
+    padding: 3px;
+    border: 1px solid transparent;
+    text-shadow: none;
+    box-shadow: none;
+    overflow: hidden;
+}
+
+.postbody .collapsible > p:first-child
+{
+    text-transform: uppercase;
+    border-bottom: 1px solid #999;
+    margin-bottom: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    display: block;
+    color: #4A4A4A;
+}
+
+.postbody .collapsible > p:last-child
+{
+    margin: 2px 0;
+    font-size: 1.0em;
+    padding: 5px;
+    color: #4A4A4A;
+    opacity: 0.5;
+}
+
+.postbody .collapsible:hover > p:last-child
+{
+    opacity: 1;
+}
+
+.postbody .inline-code
+{
+    font-size: 90%;
+    white-space: normal;
+    color: #c25;
+    padding: 1px 3px;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+.post > .inner > .postbody .content h1,
+.post > .inner > .postbody .content h2,
+.post > .inner > .postbody .content h3,
+.post > .inner > .postbody .content h4
+{
+    display: block !important;
+    color:   #074e79;
+    margin:  0.5em 0 0 0 !important;
+}
+
+.post > .inner > .postbody .content h1
+{
+    padding: 0 0 0.5em 0;
+    border-bottom: 1px solid #3380C8;
+}
+
+.post > .inner > .postbody .content h2,
+.post > .inner > .postbody .content h3
+{
+    padding: 0 0 0.25em 0;
+    border-bottom: 1px dotted #3380C8;
+}
+
+.post > .inner > .postbody .content h3
+{
+    font-size: 1.2em;
+}
+
+.post > .inner > .postbody .content h4
+{
+    padding: 0 0 0.25em 0;
+    font-size: 1.2em;
+}
+
+/* Top-bar links
+ * (example of how to apply custom icons to elements in the top-bar)
+--------------------------------------------- */
+
+#top-bar .icon1:before			{ content: '\f1b3'; }
+#top-bar .icon2 > a:before		{ content: '\f004'; }
+#top-bar .icon3 > a:before		{ content: '\f0ac'; }
+#top-bar .icon4 > a:before		{ content: '\f0a4'; }
+
+
+/* Special post styles
+--------------------------------------------- */
+
+.blizz .post,
+.blizz #viewprofile .panel:first-of-type { background: #ecebea url("./images/staff.gif") no-repeat 0 0; }
+.blizz .content { color: #086d97; }
+.blizz .content strong { color: #41aef0; }
+
+.mvp .post,
+.mvp #viewprofile .panel:first-of-type { background: #dbdfda; }
+.mvp .content { color: #038515; }
+.mvp .content strong { color: #63913e; }
+
+
+/* Post profiles
+--------------------------------------------- */
+
+.blizz .postprofile .avatar {
+	background: url("./images/avatar-tr-blizz.png") 100% 0 no-repeat, url("./images/avatar-bl-blizz.png") 0 100% no-repeat;
+}
+.blizz .postprofile .avatar img {
+	border-color: #77c1ff;
+	box-shadow: 0 0 8px rgba(1,93,255,0.5);
+}
+
+.mvp .postprofile .avatar {
+	background: url("./images/avatar-tr-mvp.png") 100% 0 no-repeat, url("./images/avatar-bl-mvp.png") 0 100% no-repeat;
+}
+.mvp .postprofile .avatar img {
+	border-color: #79ad50;
+	box-shadow: 0 0 8px rgba(186,255,0,0.2);
+}
+
+.propass .postprofile .avatar {
+	background: url("./images/avatar-tr-propass.png") 100% 0 no-repeat, url("./images/avatar-bl-propass.png") 0 100% no-repeat;
+}
+.propass .postprofile .avatar img {
+	border-color: #f3a900;
+	box-shadow: 0 0 8px rgba(243,169,0,0.2);
+}
+
+
+/* Hide repetitive post titles
+--------------------------------------------- */
+
+body.section-viewtopic .postbody h3,
+#qr_postform .fields1 > dl {
+	display: none;
+}
+
+body.section-viewtopic .postbody p.author {
+	clear: none;
+	margin: 0;
+	padding: 8px 0 12px;
+}
