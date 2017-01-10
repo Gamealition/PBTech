@@ -59,6 +59,18 @@ sub
     display: none;
 }
 
+/* Fixes footer icon; these disappeared from 3.2.0 */
+li.breadcrumbs span:first-child > a
+{
+    display:      inline-block;
+    padding-left: 17px;
+}
+
+#darkenwrapper
+{
+    display:  none;
+    position: relative;
+    z-index:  44;
 }
 
 /* Custom BBCode
