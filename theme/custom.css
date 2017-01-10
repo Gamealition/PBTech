@@ -42,11 +42,23 @@ sub
 /* Update fixes
 --------------------------------------------- */
 
+/* phpBB 3.1.8 */
+
 .postprofile .avatar img
 {
-    padding:    0;
-    margin-top: 0;
     background: none;
+    margin-top: 0;
+    padding:    0;
+}
+
+/* phpBB 3.2.0 */
+
+/* Remove mystery new javascript menu from footer */
+#nav-footer > li.responsive-menu
+{
+    display: none;
+}
+
 }
 
 /* Custom BBCode
