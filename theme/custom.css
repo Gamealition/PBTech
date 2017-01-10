@@ -115,9 +115,9 @@ fieldset
     padding: 0;
 }
 
-#forum-search .button                 { font-size:     0; }
-#forum-search .button.search-icon     { border-radius: 0; }
-#forum-search .button.search-adv-icon { border-radius: 0 3px 3px 0; }
+.search-box .button                 { font-size:     0; }
+.search-box .button.search-icon     { border-radius: 0; }
+.search-box .button.search-adv-icon { border-radius: 0 3px 3px 0; }
 
 /* Remove indentation from topic lists */
 ul.topiclist
