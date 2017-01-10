@@ -132,19 +132,18 @@ ul.topiclist dd
 }
 
 /* Fix weird line-heighting of pagination */
-.action-bar .pagination .button
-{
-    line-height: initial;    
-}
+.action-bar .pagination .button  { line-height: initial; }
+.pagination li.page-jump .button { line-height: 17px; }
 
 .pagination > ul
 {
     margin: 0;
 }
 
-/* Remove labels for next/previous */
+/* Remove labels for pagination buttons */
 .pagination li.previous a span,
-.pagination li.next a span
+.pagination li.next a span,
+.pagination li.page-jump a span
 {
     font-size: 0;
     padding:   0;
