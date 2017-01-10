@@ -96,6 +96,25 @@ ul.topiclist dd
     margin: 0;
 }
 
+/* Fix weird line-heighting of pagination */
+.action-bar .pagination .button
+{
+    line-height: initial;    
+}
+
+.pagination > ul
+{
+    margin: 0;
+}
+
+/* Remove labels for next/previous */
+.pagination li.previous a span,
+.pagination li.next a span
+{
+    font-size: 0;
+    padding:   0;
+}
+
 /* Custom BBCode
 --------------------------------------------- */
 
