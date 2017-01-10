@@ -2213,7 +2213,6 @@ p.post-notice.unapproved:before	{ content: "\f0e3"; }
 /* Drop-down menus
 --------------------------------------------- */
 ul.linklist li.responsive-menu a.responsive-menu-link {
-	font-size: 0;
 	height: 22px;
 	text-align: center;
 }
