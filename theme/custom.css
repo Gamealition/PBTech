@@ -90,13 +90,17 @@ li.row:hover .topic_unread
     display: none;
 }
 
-/* Fixes footer icon; these disappeared from 3.2.0 */
+/* Fixes various icons; these disappeared from 3.2.0 */
 li.breadcrumbs span:first-child > a
 {
     display:      inline-block;
     padding-left: 17px;
 }
 
+.topiclist .row .pagination ul
+{
+    padding-left: 14px;
+}
 #darkenwrapper
 {
     display:  none;
