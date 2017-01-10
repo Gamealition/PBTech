@@ -39,6 +39,16 @@ sub
     max-width: 100%;
 }
 
+.topic_unread
+{
+    background-color: rgb(208,219,223);
+}
+
+li.row:hover .topic_unread
+{
+    background-color: transparent;
+}
+
 /* Update fixes
 --------------------------------------------- */
 
