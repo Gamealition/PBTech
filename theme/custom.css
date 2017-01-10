@@ -7,6 +7,17 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 
 */
 
+/* CSS resets */
+
+ul, ol
+{
+    margin-left:  0;
+    padding-left: 0;
+}
+
+
+/* Custom components */
+
 #logo
 {
 	background: url("./images/logo.png") no-repeat;
