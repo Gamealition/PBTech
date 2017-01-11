@@ -191,6 +191,29 @@ ul.topiclist dd
     margin-bottom: 0.5em;
 }
 
+/* Posting fixes */
+fieldset.fields1 dt
+{
+    width:       auto;
+    min-width:   10em;
+    line-height: 1.6em;
+}
+
+fieldset.fields1 dd
+{
+    margin-left: 0;
+}
+
+dd input, dd textarea
+{
+    margin-top: 0;
+}
+
+.format-buttons select
+{
+    width: 100px;
+}
+
 
 /* Custom BBCode
 --------------------------------------------- */
