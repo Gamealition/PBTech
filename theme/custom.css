@@ -214,6 +214,27 @@ dd input, dd textarea
     width: 100px;
 }
 
+/* PM view fixes */
+dl.mini dt
+{
+    margin-bottom: 4px;
+}
+
+ul.topiclist.pmlist li.row dl
+{
+    background-position: 8px 50%;
+    background-repeat:   no-repeat;
+}
+
+ul.topiclist.pmlist li.row dt
+{
+    background-position: 5px 95%;
+}
+
+ul.topiclist.pmlist li.row dl .list-inner
+{
+    padding-left: 45px;
+}
 
 /* Custom BBCode
 --------------------------------------------- */
