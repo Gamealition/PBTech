@@ -209,6 +209,11 @@ dd input, dd textarea
     width: 100px;
 }
 
+.post > .inner > .postbody .content a
+{
+    display: inline;
+}
+
 /* PM view fixes */
 dl.mini dt
 {
