@@ -153,11 +153,39 @@ ul.topiclist dd
     padding:   0;
 }
 
+/* Disable FontAwesome for pagination buttons */
+.pagination i
+{
+    display: none;
+}
+
 /* Fix post body width */
 .postbody { width: 84%; }
 
 /* Fix back-to-top */
 .back2top .top { margin: 0; }
+
+/* FontAwesome support */
+.fa-fw
+{
+    font-family: FontAwesome;
+    font-style: normal;
+}
+
+/* Disable some FA icons already used by PBTech */
+.fa-sort-down,
+.fa-sort-up,
+.fa-angle-left,
+.fa-angle-right
+{
+    display: none;
+}
+
+.format-buttons .button
+{
+    min-width: 2em;
+    margin-bottom: 0.5em;
+}
 
 
 /* Custom BBCode
