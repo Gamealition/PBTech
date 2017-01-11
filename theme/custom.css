@@ -284,6 +284,11 @@ ul.topiclist.pmlist li.row dl .list-inner
     font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
 }
 
+.postbody hr
+{
+    margin: 1em 0;
+}
+
 .post > .inner > .postbody .content h1,
 .post > .inner > .postbody .content h2,
 .post > .inner > .postbody .content h3,
