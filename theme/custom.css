@@ -248,7 +248,7 @@ ul.topiclist dd
 {
     display: block !important;
     color:   #074e79;
-    margin:  0.5em 0 0 0 !important;
+    margin:  0.5em 0 0.5em 0 !important;
 }
 
 .post > .inner > .postbody .content h1
