@@ -11,10 +11,14 @@ Get all the FontAwesome CSS codes here: https://fortawesome.github.io/Font-Aweso
 
 ul, ol
 {
-    margin-left:  0;
+    margin:       0;
     padding-left: 0;
 }
 
+dd, dt
+{
+    margin-left: 0;
+}
 
 /* Custom components */
 
