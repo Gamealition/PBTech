@@ -490,6 +490,7 @@ blockquote > div {
 
 /* Code block */
 .codebox {
+    margin: 10px 0;
 	padding: 3px;
 	border: 1px solid transparent;
 	font-size: 1em;
@@ -514,11 +515,10 @@ blockquote .codebox {
 	display: block;
 	height: auto;
 	max-height: 200px;
-	white-space: normal;
-	padding-top: 5px;
+	white-space: pre;
+	padding: 5px 0;
 	font: 0.9em Monaco, "Andale Mono","Courier New", Courier, mono;
-	line-height: 1.3em;
-	margin: 2px 0;
+	line-height: 1.5em;
 }
 
 /* Attachments
