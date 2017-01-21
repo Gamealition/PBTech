@@ -20,6 +20,12 @@ dd, dt
     margin-left: 0;
 }
 
+p, pre
+{
+    margin:  0;
+    padding: 0;
+}
+
 /* Custom components */
 
 #logo
