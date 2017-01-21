@@ -89,6 +89,11 @@ li.row:hover .topic_unread
 
 /* phpBB 3.2.0 */
 
+.hidden
+{
+    display: none;
+}
+
 /* Remove mystery new javascript menus */
 #nav-footer > li.responsive-menu,
 .post-buttons > li.responsive-menu
