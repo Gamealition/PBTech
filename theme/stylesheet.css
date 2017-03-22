@@ -691,6 +691,10 @@ dl.thumbnail dt a:hover img,
 	border-color: rgba(0, 0, 0, 0.15);
 }
 
+.dropdown-contents a span {
+	padding-left: 5px;
+}
+
 .post-buttons .icon-button {
 	color: #4d606d;
 }
